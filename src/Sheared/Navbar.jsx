@@ -22,7 +22,7 @@ const Navbar = () => {
 		setIsOpen(!isOpen);
 	}
 	return (
-		<div className="cursor-pointer uppercase fixed z-10 w-full text-white bg-black md:py-3 bg-opacity-35 mb-6">	
+		<div className="cursor-pointer uppercase fixed z-10 w-full text-white bg-[#151515] md:py-3 bg-opacity-35 mb-6">	
 			<nav className="flex justify-between items-center h-12 px-6 py-6">
 		<Link to='/'><img src={logo} alt=""  className="w-3/5"/></Link>
 		<div >
